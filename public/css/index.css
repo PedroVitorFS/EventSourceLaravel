@@ -1,0 +1,96 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #e5e5e5;
+    height: 100vh;
+    width: 100%;
+}
+
+.card-table{
+    width: 95%;
+    background-color: white;
+    border-radius: 5px;
+    padding:20px 15px 0px 15px;
+    box-shadow: rgba(146, 71, 71, 0.24) 0px 3px 8px;
+    align-content: center;
+}
+
+.header-table{
+    display:flex;
+    justify-content: space-between;
+    flex-direction: row;
+
+}
+
+.header-table h1{
+    font-family: 'Poppins';
+    font-weight: 600;
+    font-size: 35px;
+    color: #4f4f4f;
+}
+
+table #status-success{
+    color: #01A78D;
+}
+
+table #status-error{
+    color: #DC0C0C;
+}
+
+.button-blue{
+    background-color: #0C005A;
+    color: white;
+    font-family: 'Roboto';
+    font-size: 18px;
+    padding: 15px;
+    border-radius: 4px;
+}
+
+.button-grey{
+    background-color: #848484;
+    color: white;
+    padding: 4px;
+    border-radius: 4px;
+    padding: 15px 20px;
+    font-family: 'Roboto';
+    font-size: 18px;
+}
+
+.content-infos{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+    width: 70%;
+}
+
+.card-info{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.card-info i{
+    font-size: 35px;
+    color: #DC0C0C;
+    margin: 5px;
+}
+
+.card-info h1{
+    font-size: 14px;
+    color: #959595;
+}
+
+.card-info p{
+    font-size: 25px;
+    font-weight: 500;
+}
+
+.card-info i{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: transform 1s;
+}
